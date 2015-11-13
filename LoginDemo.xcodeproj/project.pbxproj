@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		637109B11BAC093C0046FE0E /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 637109B01BAC093C0046FE0E /* welcome_video.mp4 */; };
 		6379EE551BAE9D6E0057EA4A /* jg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6379EE541BAE9D6E0057EA4A /* jg.png */; };
+		63B1F6A31BF63D8300BBD8CC /* UberLogin.gif in Resources */ = {isa = PBXBuildFile; fileRef = 63B1F6A21BF63D8200BBD8CC /* UberLogin.gif */; };
 		63E24A1D1BABF51B00605F9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E24A1C1BABF51B00605F9F /* main.m */; };
 		63E24A201BABF51B00605F9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E24A1F1BABF51B00605F9F /* AppDelegate.m */; };
 		63E24A281BABF51B00605F9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E24A271BABF51B00605F9F /* Images.xcassets */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		637109B01BAC093C0046FE0E /* welcome_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcome_video.mp4; sourceTree = "<group>"; };
 		6379EE541BAE9D6E0057EA4A /* jg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jg.png; sourceTree = "<group>"; };
+		63B1F6A21BF63D8200BBD8CC /* UberLogin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = UberLogin.gif; sourceTree = "<group>"; };
 		63E24A171BABF51B00605F9F /* LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E24A1B1BABF51B00605F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E24A1C1BABF51B00605F9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		63E24A1A1BABF51B00605F9F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				63B1F6A21BF63D8200BBD8CC /* UberLogin.gif */,
 				63E24A491BAC055A00605F9F /* pw_icon.png */,
 				6379EE541BAE9D6E0057EA4A /* jg.png */,
 				63E24A4A1BAC055A00605F9F /* pw_icon@2x.png */,
@@ -214,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B1F6A31BF63D8300BBD8CC /* UberLogin.gif in Resources */,
 				63E24A4F1BAC055A00605F9F /* user_icon.png in Resources */,
 				63E24A4E1BAC055A00605F9F /* pw_icon@2x.png in Resources */,
 				63E24A2B1BABF51B00605F9F /* LaunchScreen.xib in Resources */,
