@@ -1,12 +1,12 @@
 //
-//  LanchAndSignupViewController.m
+//  LaunchAndSignupViewController.m
 //  foundertimeIOS
 //
 //  Created by DavidLee on 15/9/18.
 //  Copyright (c) 2015年 Benjamin Gordon. All rights reserved.
 //
 
-#import "LanchAndSignupViewController.h"
+#import "LaunchAndSignupViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
 
@@ -30,7 +30,7 @@
  */
 #define HEIGHT_OF_FIELD 40
 
-@interface LanchAndSignupViewController ()
+@interface LaunchAndSignupViewController ()
 /*** 视频播放器*/
 @property(nonatomic,strong)AVPlayer *player;
 /*** 播放视频的view*/
@@ -51,7 +51,7 @@
 
 @end
 
-@implementation LanchAndSignupViewController
+@implementation LaunchAndSignupViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

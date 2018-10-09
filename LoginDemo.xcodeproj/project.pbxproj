@@ -15,7 +15,7 @@
 		63E24A281BABF51B00605F9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E24A271BABF51B00605F9F /* Images.xcassets */; };
 		63E24A2B1BABF51B00605F9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E24A291BABF51B00605F9F /* LaunchScreen.xib */; };
 		63E24A371BABF51B00605F9F /* LoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E24A361BABF51B00605F9F /* LoginDemoTests.m */; };
-		63E24A441BABF55400605F9F /* LanchAndSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E24A431BABF55400605F9F /* LanchAndSignupViewController.m */; };
+		63E24A441BABF55400605F9F /* LaunchAndSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E24A431BABF55400605F9F /* LaunchAndSignupViewController.m */; };
 		63E24A4D1BAC055A00605F9F /* pw_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E24A491BAC055A00605F9F /* pw_icon.png */; };
 		63E24A4E1BAC055A00605F9F /* pw_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E24A4A1BAC055A00605F9F /* pw_icon@2x.png */; };
 		63E24A4F1BAC055A00605F9F /* user_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E24A4B1BAC055A00605F9F /* user_icon.png */; };
@@ -46,8 +46,8 @@
 		63E24A301BABF51B00605F9F /* LoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E24A351BABF51B00605F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E24A361BABF51B00605F9F /* LoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginDemoTests.m; sourceTree = "<group>"; };
-		63E24A421BABF55400605F9F /* LanchAndSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanchAndSignupViewController.h; sourceTree = "<group>"; };
-		63E24A431BABF55400605F9F /* LanchAndSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanchAndSignupViewController.m; sourceTree = "<group>"; };
+		63E24A421BABF55400605F9F /* LaunchAndSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAndSignupViewController.h; sourceTree = "<group>"; };
+		63E24A431BABF55400605F9F /* LaunchAndSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAndSignupViewController.m; sourceTree = "<group>"; };
 		63E24A491BAC055A00605F9F /* pw_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pw_icon.png; sourceTree = "<group>"; };
 		63E24A4A1BAC055A00605F9F /* pw_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pw_icon@2x.png"; sourceTree = "<group>"; };
 		63E24A4B1BAC055A00605F9F /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_icon.png; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 		63E24A191BABF51B00605F9F /* LoginDemo */ = {
 			isa = PBXGroup;
 			children = (
-				63E24A421BABF55400605F9F /* LanchAndSignupViewController.h */,
-				63E24A431BABF55400605F9F /* LanchAndSignupViewController.m */,
+				63E24A421BABF55400605F9F /* LaunchAndSignupViewController.h */,
+				63E24A431BABF55400605F9F /* LaunchAndSignupViewController.m */,
 				63E24A1E1BABF51B00605F9F /* AppDelegate.h */,
 				63E24A1F1BABF51B00605F9F /* AppDelegate.m */,
 				63E24A271BABF51B00605F9F /* Images.xcassets */,
@@ -243,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E24A441BABF55400605F9F /* LanchAndSignupViewController.m in Sources */,
+				63E24A441BABF55400605F9F /* LaunchAndSignupViewController.m in Sources */,
 				63E24A201BABF51B00605F9F /* AppDelegate.m in Sources */,
 				63E24A1D1BABF51B00605F9F /* main.m in Sources */,
 			);

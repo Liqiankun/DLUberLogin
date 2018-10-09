@@ -1,5 +1,5 @@
 //
-//  LanchAndSignupViewController.h
+//  LaunchAndSignupViewController.h
 //  foundertimeIOS
 //
 //  Created by DavidLee on 15/9/18.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LanchAndSignupViewController : UIViewController
+@interface LaunchAndSignupViewController : UIViewController
 
 @end

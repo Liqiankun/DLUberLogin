@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LanchAndSignupViewController.h"
+#import "LaunchAndSignupViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -22,7 +22,7 @@
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
     
-    self.window.rootViewController = [LanchAndSignupViewController new];
+    self.window.rootViewController = [LaunchAndSignupViewController new];
     
     [self.window makeKeyAndVisible];
     
