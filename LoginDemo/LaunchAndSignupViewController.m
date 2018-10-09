@@ -56,13 +56,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor blueColor];
     [self createVideoPlayer];
-    
+
     [self createLoginView];
-    
+
     [self createButtons];
-    
-    
+
+
     //两个监听键盘状态的通知中心
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardShow:) name:UIKeyboardWillShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardHide:) name:UIKeyboardWillHideNotification object:nil];
@@ -84,12 +85,13 @@
     self.player = [AVPlayer playerWithPlayerItem:videoItem];
     
     self.player.volume = VOLUME_OF_PLAYER;
-    self.playerView = [[UIView alloc] initWithFrame:self.view.bounds];
+    self.playerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
+    self.playerView.backgroundColor = [UIColor greenColor];
     [self.view addSubview:self.playerView];
     AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.player];
     
-    playerLayer.videoGravity = UIViewContentModeScaleToFill;
-    playerLayer.frame = self.playerView.bounds;
+    playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+    playerLayer.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);
     [self.playerView.layer addSublayer:playerLayer];
 
     [self.player play];

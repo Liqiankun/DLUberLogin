@@ -22,7 +22,7 @@
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
     
-    self.window.rootViewController = [LaunchAndSignupViewController new];
+    self.window.rootViewController = [[LaunchAndSignupViewController alloc] init];
     
     [self.window makeKeyAndVisible];
     
